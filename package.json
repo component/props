@@ -1,0 +1,7 @@
+{
+  "name": "props-component",
+  "devDependencies": {
+    "should": "~1.2.2",
+    "mocha": "~1.9.0"
+  }
+}
