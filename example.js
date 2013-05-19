@@ -1,10 +1,15 @@
 
 var props = require('./');
 
-function test(str, opts) {
+function test(str, prefix) {
   console.log();
   console.log(str);
-  console.log('=> %s', props(str, opts).join(' '));
+
+  if (prefix) {
+    console.log('=> %s', props(str, prefix));
+  } else {
+    console.log('=> %s', props(str).join(' '));
+  }
 }
 
 test('~ret.indexOf(arr[i])')
@@ -15,3 +20,4 @@ test('file.mime.split("/")')
 
 test('file.type + " " + classes().join(" ")')
 
+test('name.first + name.last() + last()', '$.');
