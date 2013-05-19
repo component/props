@@ -1,7 +1,7 @@
 
 # props
 
-  Parse identifiers from a js expression. Built for the [Reactive](https://github.com/component/reactive)
+  Parse immediate identifiers from a js expression. Built for the [Reactive](https://github.com/component/reactive)
   template engine.
 
 ## Installation
