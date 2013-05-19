@@ -21,3 +21,5 @@ test('file.mime.split("/")')
 test('file.type + " " + classes().join(" ")')
 
 test('name.first + name.last() + last()', '$.');
+
+test('something()', '$.')

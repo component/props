@@ -24,7 +24,8 @@ module.exports = function(str, prefix){
 function props(str) {
   return str
     .replace(/\.\w+|\w+ *\(|"[^"]*"|'[^']*'|\/([^/]+)\//g, '')
-    .match(/[a-zA-Z_]\w*/g);
+    .match(/[a-zA-Z_]\w*/g)
+    || [];
 }
 
 /**
