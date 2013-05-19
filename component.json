@@ -2,7 +2,7 @@
   "name": "props",
   "repo": "component/props",
   "description": "Parse immediate identifiers from a js expression",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": ["template", "engine", "parse", "parser"],
   "dependencies": {},
   "development": {},
