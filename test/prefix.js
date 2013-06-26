@@ -14,6 +14,11 @@ describe('props(str, prefix)', function(){
     props('first() + last() + classes.join()', '$.')
     .should.equal('$.first() + $.last() + $.classes.join()');
   })
+
+  it('should ignore global constructs', function(){
+    props('Math.round(n) * JSON.stringify(blob)', '$.')
+    .should.equal('Math.round($.n) * JSON.stringify($.blob)');
+  })
 })
 
 describe('props(str, fn)', function(){
