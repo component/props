@@ -12,16 +12,16 @@ function test(str, prefix) {
   }
 }
 
-test('~ret.indexOf(arr[i])');
+test('~ret.indexOf(arr[i])')
 
-test('name.first + name.last');
+test('name.first + name.last')
 
-test('file.mime.split("/")');
+test('file.mime.split("/")')
 
-test('file.type + " " + classes().join(" ")');
+test('file.type + " " + classes().join(" ")')
 
-test('name.first + name.last() + last()', '$.');
+test('name.first + name.last() + last()', '$.')
 
-test('something()', '$.');
+test('something()', '$.')
 
-test('Math.random(first)', '$.');
+test('Math.random() + Math.round(n)', '$.')

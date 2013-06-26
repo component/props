@@ -16,8 +16,8 @@ describe('props(str, prefix)', function(){
   })
 
   it('should ignore global constructs', function(){
-    props('Math.random(num) * JSON.stringify(blob)', '$.')
-    .should.equal('Math.random($.num) * JSON.stringify($.blob)');
+    props('Math.round(n) * JSON.stringify(blob)', '$.')
+    .should.equal('Math.round($.n) * JSON.stringify($.blob)');
   })
 })
 
