@@ -1,5 +1,5 @@
 {
-  "name": "props-component",
+  "name": "component-props",
   "version": "1.1.0",
   "devDependencies": {
     "should": "~1.2.2",
