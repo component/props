@@ -1,30 +1,30 @@
 
-1.1.0 / 2013-06-23 
+1.1.0 / 2013-06-23
 ==================
 
- * add support for mapping function
+  * add support for mapping function
 
-1.0.3 / 2013-05-27 
+1.0.3 / 2013-05-27
 ==================
 
- * fix package.json
+  * fix package.json
 
-1.0.1 / 2013-05-18 
+1.0.1 / 2013-05-18
 ==================
 
- * fix null match
+  * fix null match
 
-n.n.n / 2013-05-18 
+n.n.n / 2013-05-18
 ==================
 
- * fix null match
+  * fix null match
 
-0.1.0 / 2013-05-18 
+0.1.0 / 2013-05-18
 ==================
 
- * add prefix support. Closes #1
+  * add prefix support. Closes #1
 
-0.0.2 / 2013-05-18 
+0.0.2 / 2013-05-18
 ==================
 
- * fix numbers
+  * fix numbers
