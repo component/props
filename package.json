@@ -1,6 +1,13 @@
 {
   "name": "component-props",
-  "version": "1.1.0",
+  "description": "Parse immediate identifiers from a js expression",
+  "version": "1.1.1",
+  "keywords": [
+    "template",
+    "engine",
+    "parse",
+    "parser"
+  ],
   "devDependencies": {
     "should": "~1.2.2",
     "mocha": "~1.9.0"

@@ -1,4 +1,15 @@
 
+1.1.1 / 2014-02-11
+==================
+
+  * History: fix whitespace
+  * package: rename to "component-props"
+  * package: add "main" field
+  * component: remove unused "main" field
+  * add repository field to `package.json`
+  * random => round
+  * ignore global constructs like Math, Object, Array, JSON, & Date
+
 1.1.0 / 2013-06-23
 ==================
 
