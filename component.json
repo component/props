@@ -7,7 +7,6 @@
   "dependencies": {},
   "development": {},
   "license": "MIT",
-  "main": "index.js",
   "scripts": [
     "index.js"
   ]
