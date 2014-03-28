@@ -32,7 +32,7 @@ function props(str) {
   return str
     .replace(/\.\w+|\w+ *\(|"[^"]*"|'[^']*'|\/([^/]+)\//g, '')
     .replace(globals, '')
-    .match(/[a-zA-Z_]\w*/g)
+    .match(/[$a-zA-Z_]\w*/g)
     || [];
 }
 
