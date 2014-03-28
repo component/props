@@ -2,7 +2,7 @@
  * Global Names
  */
 
-var globals = /\b(Array|Date|Object|Math|JSON)\b/g;
+var globals = /\b(this|Array|Date|Object|Math|JSON)\b/g;
 
 /**
  * Return immediate identifiers parsed from `str`.
