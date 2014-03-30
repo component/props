@@ -2,7 +2,7 @@
  * Global Names
  */
 
-var globals = /\b(Array|Date|Object|Math|JSON)\b/g;
+var globals = /\b(this|Array|Date|Object|Math|JSON)\b/g;
 
 /**
  * Return immediate identifiers parsed from `str`.
@@ -32,7 +32,7 @@ function props(str) {
   return str
     .replace(/\.\w+|\w+ *\(|"[^"]*"|'[^']*'|\/([^/]+)\//g, '')
     .replace(globals, '')
-    .match(/[a-zA-Z_]\w*/g)
+    .match(/[$a-zA-Z_]\w*/g)
     || [];
 }
 
