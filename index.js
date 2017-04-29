@@ -13,7 +13,7 @@ var globals = /\b(this|Array|Date|Object|Math|JSON)\b/g;
  * @api public
  */
 
-module.exports = function(str, fn){
+module.exports = (str, fn) => {
   var p = unique(props(str));
   if (fn && 'string' == typeof fn) fn = prefixed(fn);
   if (fn) return map(str, p, fn);
@@ -48,7 +48,7 @@ function props(str) {
 
 function map(str, props, fn) {
   var re = /\.\w+|\w+ *\(|"[^"]*"|'[^']*'|\/([^/]+)\/|[a-zA-Z_]\w*/g;
-  return str.replace(re, function(_){
+  return str.replace(re, _ => {
     if ('(' == _[_.length - 1]) return fn(_);
     if (!~props.indexOf(_)) return _;
     return fn(_);
@@ -79,7 +79,5 @@ function unique(arr) {
  */
 
 function prefixed(str) {
-  return function(_){
-    return str + _;
-  };
+  return _ => str + _;
 }
